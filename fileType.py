@@ -1,4 +1,6 @@
 
+""" Module with different file types. """
+
 from abc import ABCMeta, abstractmethod
 
 class FileType:
@@ -6,7 +8,11 @@ class FileType:
 
 	@abstractmethod
 	def suffixes(self): 
-		# Which suffixes describes the type.
+		""" Which suffixes mathes the file type.
+
+		Returns:
+			list: Suffixes.
+		"""
 		return []
 
 class Movie(FileType):

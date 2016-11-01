@@ -1,5 +1,7 @@
 
-class CLI:
+""" Module with interfaces. """
+
+class TextUI:
 	""" Terminal UI for application.
 	"""
 
@@ -18,7 +20,7 @@ class CLI:
 			if operation in ["s", "scan"]:
 				files = lfx.scan(arguments)
 				print(files)
-				
+
 			elif operation in ["h", "help"]:
 				print("Scan:")
 				print("[scan, s] [suffix] [suffix] ...")
