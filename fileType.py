@@ -18,4 +18,4 @@ class FileType:
 class Movie(FileType):
 
 	def suffixes(self):
-		return ['_movie.txt', '.mkv', '.mp4', '.avi'] # _movie.txt for development
+		return ['_movie.txt', '.mkv', '.mp4'] # _movie.txt for development

@@ -11,23 +11,18 @@ class Luriflix:
 		self.scanner = Scanner()
 		self.file_type = Movie()
 
+		self.files = []
+
+		self.update()
+
 		# Initiate UI
 		self.ui = TextUI(self)
 
-	def scan(self, suffixes = []):
-		""" Calls to scan for specific files.
-		Args:
-			suffixes (list): What suffixes to match.
+	def update(self):
+		""" Updates list of files. """
 
-		Returns:
-			list: Matching files.
-		"""
-
-		# Use the filetypes suffixes if none were sent as parameter
-		if len(suffixes) == 0:
-			suffixes = self.file_type.suffixes()
-
-		return self.scanner.scan(suffixes)
+		suffixes = self.file_type.suffixes()
+		self.files = self.scanner.scan(suffixes)
 
 if __name__ == "__main__":
 	l = Luriflix()
