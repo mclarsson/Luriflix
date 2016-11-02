@@ -2,8 +2,7 @@
 """ Module with interfaces. """
 
 class TextUI:
-	""" Terminal UI for application. Mainly for development
-	"""
+	""" Terminal UI for application. Mainly for development """
 
 	def __init__(self, lfx):
 
@@ -16,8 +15,10 @@ class TextUI:
 			arguments = command[1:]
 
 			if operation == "upd":
+				# Update applications list of files
 				lfx.update()
 			elif operation == "ls":
+				# Show list of application files
 				files = lfx.files
 				for file in files:
 					print(file)
