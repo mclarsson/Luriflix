@@ -16,7 +16,12 @@ class TextUI:
 			operation = command[0]
 			arguments = command[1:]
 
-			if operation == "upd":
+			if operation == "q":
+				# Exit program
+
+				return None
+
+			elif operation == "upd":
 				# Update applications list of files
 				
 				lfx.update()
