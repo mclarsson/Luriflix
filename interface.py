@@ -1,6 +1,8 @@
 
 """ Module with interfaces. """
 
+from terminaltables import AsciiTable
+
 class TextUI:
 	""" Terminal UI for application. Mainly for development """
 
@@ -16,9 +18,20 @@ class TextUI:
 
 			if operation == "upd":
 				# Update applications list of files
+				
 				lfx.update()
+
 			elif operation == "ls":
 				# Show list of application files
+				
 				files = lfx.files
+				table_data = [['File']] # first list in table is headers
+
 				for file in files:
-					print(file)
+					row = []
+					row.append(file)
+					table_data.append(row)
+
+
+				table = AsciiTable(table_data)
+				print table.table

@@ -8,12 +8,11 @@ from movie import *
 class Luriflix:
 
 	def __init__(self):
-		self.scanner = Scanner()
-		self.file_type = Movie()
+		self.suffixes = Movie.suffixes
 
 		self.files = []
 
-		self.update
+		self.update()
 
 		# Initiate UI
 		self.ui = TextUI(self)
@@ -21,8 +20,7 @@ class Luriflix:
 	def update(self):
 		""" Updates list of files. """
 
-		suffixes = self.file_type.suffixes
-		self.files = self.scanner.scan(suffixes)
+		self.files = Scanner.scan(self.suffixes)
 
 if __name__ == "__main__":
 	l = Luriflix()
