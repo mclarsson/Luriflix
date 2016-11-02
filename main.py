@@ -13,7 +13,7 @@ class Luriflix:
 
 		self.files = []
 
-		self.update()
+		self.update
 
 		# Initiate UI
 		self.ui = TextUI(self)
@@ -21,7 +21,7 @@ class Luriflix:
 	def update(self):
 		""" Updates list of files. """
 
-		suffixes = self.file_type.suffixes()
+		suffixes = self.file_type.suffixes
 		self.files = self.scanner.scan(suffixes)
 
 if __name__ == "__main__":

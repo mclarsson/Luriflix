@@ -1,21 +1,7 @@
 
 """ Module with different file types. """
 
-from abc import ABCMeta, abstractmethod
+class Movie:
 
-class FileType:
-	__metaclass__ = ABCMeta
-
-	@abstractmethod
-	def suffixes(self): 
-		""" Which suffixes mathes the file type.
-
-		Returns:
-			list: Suffixes.
-		"""
-		return []
-
-class Movie(FileType):
-
-	def suffixes(self):
-		return ['_movie.txt', '.mkv', '.mp4'] # _movie.txt for development
+	def __init__(self):
+		self.suffixes = ['_movie.txt', '.mkv', '.mp4'] # _movie.txt for development
