@@ -3,7 +3,7 @@
 
 from scanner import Scanner
 from interface import *
-from fileType import *
+from movie import *
 
 class Luriflix:
 
