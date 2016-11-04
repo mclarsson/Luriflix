@@ -32,10 +32,16 @@ class TextUI:
 				if len(lfx.files) > 0:
 					table_data = [lfx.files[0].property_titles] # first list in table is headers
 					for file in lfx.files:
-						table_data.append(file.properties)
+						row = [file.properties['File'], file.properties['Title']]
+						table_data.append(row)
 
 					table = AsciiTable(table_data)
 					print table.table
 
 				else:
 					print("No files registered, enter upd to update")
+
+			elif operation == "s":
+				# Save
+				
+				lfx.save()
