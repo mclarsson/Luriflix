@@ -29,14 +29,13 @@ class TextUI:
 			elif operation == "ls":
 				# Show list of application files
 				
-				files = lfx.files
-				table_data = [['File']] # first list in table is headers
+				if len(lfx.files) > 0:
+					table_data = [lfx.files[0].property_titles] # first list in table is headers
+					for file in lfx.files:
+						table_data.append(file.properties)
 
-				for file in files:
-					row = []
-					row.append(file)
-					table_data.append(row)
+					table = AsciiTable(table_data)
+					print table.table
 
-
-				table = AsciiTable(table_data)
-				print table.table
+				else:
+					print("No files registered, enter upd to update")

@@ -19,8 +19,11 @@ class Luriflix:
 
 	def update(self):
 		""" Updates list of files. """
+		files = Scanner.scan(self.suffixes)
+		for file in files:
+			self.files.append(Movie(file))
 
-		self.files = Scanner.scan(self.suffixes)
+
 
 if __name__ == "__main__":
 	l = Luriflix()

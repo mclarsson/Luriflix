@@ -23,7 +23,6 @@ class Scanner:
 		for root, dirs, files in os.walk(origin_dir):
 			for file in files:
 				if any(file.endswith(suffix) and file != suffix for suffix in suffixes):
-					print(os.stat(root).st_size)
 					result.append(file)
 
 		return result
