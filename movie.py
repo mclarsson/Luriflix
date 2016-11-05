@@ -7,7 +7,7 @@ class Movie:
 
 
 
-	def __init__(self, **properties):
+	def __init__(self, properties):
 		self.__dict__.update(properties)
 
 		self.properties = properties

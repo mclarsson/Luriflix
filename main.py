@@ -10,9 +10,12 @@ class Luriflix:
 
 	def __init__(self):
 		self.suffixes = Movie.suffixes
+		self.property_titles = Movie.property_titles
 		self.load_file = 'movies.json'
 
 		self.files = []
+
+		print os.path.dirname(os.path.abspath(__file__))
 
 		self.load()
 
@@ -24,14 +27,14 @@ class Luriflix:
 		files = Scanner.scan(self.suffixes)
 		for file in files:
 			args = {'File' : file}
-			self.files.append(Movie(**args))
+			self.files.append(Movie(args))
 
 	def load(self):
 		""" Loads files into system """
 		files = []
 		json = Storage.load_JSON(self.load_file)
 		for file in json:
-			self.files.append(Movie(**file))
+			self.files.append(Movie(file))
 
 	def save(self):
 		""" Saves current state """

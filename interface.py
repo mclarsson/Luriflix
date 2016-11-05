@@ -18,30 +18,30 @@ class TextUI:
 
 			if operation == "q":
 				# Exit program
-
 				return None
 
 			elif operation == "upd":
 				# Update applications list of files
-				
 				lfx.update()
 
 			elif operation == "ls":
 				# Show list of application files
-				
 				if len(lfx.files) > 0:
-					table_data = [lfx.files[0].property_titles] # first list in table is headers
+					titles = lfx.property_titles
+					titles.insert(0, '#')
+					table_data = [titles] # first list in table is headers
+					a = 1
 					for file in lfx.files:
-						row = [file.properties['File'], file.properties['Title']]
+						row = file.properties.values()
+						row.insert(0, a)
 						table_data.append(row)
+						a += 1
 
 					table = AsciiTable(table_data)
 					print table.table
-
 				else:
 					print("No files registered, enter upd to update")
 
 			elif operation == "s":
 				# Save
-				
 				lfx.save()
