@@ -15,8 +15,6 @@ class Luriflix:
 
 		self.files = []
 
-		print os.path.dirname(os.path.abspath(__file__))
-
 		self.load()
 
 		# Initiate UI
@@ -24,10 +22,12 @@ class Luriflix:
 
 	def update(self, files):
 		""" Updates list of files. """
-		files = Scanner.scan(self.suffixes)
 		for file in files:
-			args = {'File' : file}
-			self.files.append(Movie(args))
+			self.files.append(Movie(file))
+
+	def scan(self, directory):
+		files = Scanner.scan(self.suffixes, directory)
+		self.update(files)
 
 	def load(self):
 		""" Loads files into system """
@@ -43,6 +43,7 @@ class Luriflix:
 			json.append(file.properties)
 
 		Storage.save_as_JSON(json, self.load_file)
+
 
 if __name__ == "__main__":
 	l = Luriflix()

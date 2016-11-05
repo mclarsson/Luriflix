@@ -42,6 +42,10 @@ class TextUI:
 				else:
 					print("No files registered, enter upd to update")
 
-			elif operation == "s":
+			elif operation == "sv":
 				# Save
 				lfx.save()
+
+			elif operation == "sc":
+				# Scan directory 
+				lfx.scan(arguments[0])
