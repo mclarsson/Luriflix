@@ -51,5 +51,6 @@ class Luriflix:
 		os.startfile(file)
 
 
+
 if __name__ == "__main__":
 	l = Luriflix()
