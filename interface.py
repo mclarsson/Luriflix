@@ -44,7 +44,6 @@ class TextUI:
 				else:
 					print("No files registered")
 
-<<<<<<< HEAD
 			elif operation == "save":
 				# Save
 				lfx.save()
@@ -65,7 +64,7 @@ class TextUI:
 				index = int(arguments[0]) - 1
 				file = lfx.files[index].properties['Source'] + "\\" + lfx.files[index].properties['File']
 				lfx.run(file)
-=======
+				
 			elif operation == "sv":
 				# Save
 				lfx.save()
@@ -73,4 +72,3 @@ class TextUI:
 			elif operation == "sc":
 				# Scan directory 
 				lfx.scan(arguments[0])
->>>>>>> origin/master
