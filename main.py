@@ -1,6 +1,8 @@
 
 """ Main module for application. """
 
+import os
+
 from storage import Storage
 from scanner import Scanner
 from interface import *
@@ -11,11 +13,9 @@ class Luriflix:
 	def __init__(self):
 		self.suffixes = Movie.suffixes
 		self.property_titles = Movie.property_titles
-		self.load_file = 'movies.json'
+		self.save_file = 'movies.json'
 
 		self.files = []
-
-		print os.path.dirname(os.path.abspath(__file__))
 
 		self.load()
 
@@ -24,17 +24,19 @@ class Luriflix:
 
 	def update(self, files):
 		""" Updates list of files. """
-		files = Scanner.scan(self.suffixes)
 		for file in files:
-			args = {'File' : file}
-			self.files.append(Movie(args))
+			self.files.append(Movie(file))
+
+	def scan(self, directory):
+		files = Scanner.scan(self.suffixes, directory)
+		self.update(files)
 
 	def load(self):
 		""" Loads files into system """
 		files = []
-		json = Storage.load_JSON(self.load_file)
-		for file in json:
-			self.files.append(Movie(file))
+		json = Storage.load_JSON(self.save_file)
+		for properties in json:
+			self.files.append(Movie(properties))
 
 	def save(self):
 		""" Saves current state """
@@ -42,7 +44,12 @@ class Luriflix:
 		for file in self.files:
 			json.append(file.properties)
 
-		Storage.save_as_JSON(json, self.load_file)
+		Storage.save_as_JSON(json, self.save_file)
+
+	def run(self, file):
+		""" Starts file """
+		os.startfile(file)
+
 
 if __name__ == "__main__":
 	l = Luriflix()
