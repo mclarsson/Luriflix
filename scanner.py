@@ -23,7 +23,6 @@ class Scanner:
 			list: Matching files.
 		"""
 		# TODO: scannar inte allt under development
-		directory = origin_dir
 
 		result = []
 		for root, dirs, files in os.walk(directory):

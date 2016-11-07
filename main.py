@@ -11,16 +11,21 @@ from movie import *
 class Luriflix:
 
 	def __init__(self):
+		# Which file endings will match when scanning
 		self.suffixes = Movie.suffixes
-		self.property_titles = Movie.property_titles
+
+		# Titles that show up when showing list of files
+		self.titles = Movie.titles
+
+		# Which properties to filter
+		self.filters = Movie.filters
+
+		# Where to save current state
 		self.save_file = 'movies.json'
 
 		self.files = []
 
 		self.load()
-
-		# Initiate UI
-		self.ui = TextUI(self)
 
 	def update(self, files):
 		""" Updates list of files. """
@@ -50,7 +55,23 @@ class Luriflix:
 		""" Starts file """
 		os.startfile(file)
 
+	def filter(self, queries):
+		""" Filters the list of files.
+		Args:
+			queries (list): What to match agains
+		Returns:
+			list: Filtered list.
+		"""
+		filtered = []
 
+		for file in self.files:
+			for identifier in self.filters:
+				for query in queries:
+					if query in file.attributes[identifier] and file not in filtered:
+						filtered.append(file)
+
+		return filtered
 
 if __name__ == "__main__":
-	l = Luriflix()
+	lfx = Luriflix()
+	tui = TextUI(lfx)

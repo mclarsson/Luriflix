@@ -3,7 +3,8 @@
 
 class Movie:
 	suffixes = ['.mkv', '.mp4']
-	property_titles = ['Source', 'File', 'Title', 'Size']
+	filters = ['File', 'Title']
+	titles = ['File', 'Title', 'Size']
 
-	def __init__(self, properties):
-		self.properties = properties
+	def __init__(self, attributes):
+		self.attributes = attributes
