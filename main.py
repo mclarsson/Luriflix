@@ -69,7 +69,7 @@ class Luriflix:
 		for file in self.files:
 			for identifier in self.filters:
 				for query in queries:
-					if query in file.attributes[identifier] and file not in filtered:
+					if query.lower() in file.attributes[identifier].lower() and file not in filtered:
 						filtered.append(file)
 
 		return filtered

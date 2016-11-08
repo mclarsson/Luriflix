@@ -91,6 +91,8 @@ class TextUI:
 class GUI:
 	def __init__(self, lfx):
 
+		self.lfx = lfx
+
 		# List of all files
 		self.complete_list = lfx.files
 
@@ -101,14 +103,38 @@ class GUI:
 		self.current_list = self.complete_list
 
 		# GUI stuff
-		top = Tk()
+		self.top = Tk()
+		self.top.minsize(width=500, height=500)
+		self.top.grid_columnconfigure(0, weight=1)
+		self.top.grid_rowconfigure(1, weight=1)
 
-		file_list = Listbox(top)
-		a = 1
+		self.search_field = Entry(self.top, bd =5)
+		self.search_field.grid(column=0, row=0, sticky='we', columnspan = 2)
+		self.search_field.bind("<Key>", self.search_key_down)
+
+		self.file_list = Listbox(self.top)
+		self.list_files()
+		self.file_list.grid(column=0, row=1, sticky='wesn')
+
+		self.scrollbar = Scrollbar(self.top, command=self.file_list.yview)
+		self.scrollbar.config(command=self.file_list.yview)
+		self.file_list.config(yscrollcommand = self.scrollbar.set)
+		self.scrollbar.grid(column=1, row=1, sticky='sn')
+
+		self.top.mainloop()
+
+	def search_key_down(self, key):
+		value = self.search_field.get() + key.char
+		self.filtered_list = self.lfx.filter(value.split())
+		if len(self.filtered_list) == 0:
+			self.current_list = self.complete_list
+		else:
+			self.current_list = self.filtered_list
+
+		self.list_files()
+
+	def list_files(self):
+		# List of files
+		self.file_list.delete(0, END)
 		for file in self.current_list:
-			file_list.insert(a, file.attributes['Title'])
-			a += 1
-
-		file_list.pack()
-
-		top.mainloop()
+			self.file_list.insert(END, file.attributes['Title'])
