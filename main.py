@@ -25,6 +25,7 @@ class Luriflix:
 
 		self.files = []
 
+		# Load files from save_file
 		self.load()
 
 	def update(self, files):
@@ -33,6 +34,7 @@ class Luriflix:
 			self.files.append(Movie(file))
 
 	def scan(self, directory):
+		""" Scans directory for new files """
 		files = Scanner.scan(self.suffixes, directory)
 		self.update(files)
 

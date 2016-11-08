@@ -31,7 +31,7 @@ class TextUI:
 
 			elif operation == "ls":
 				# Show list of application files
-				self.print_list(self.current_list, lfx.titles)
+				self.print_list(self.current_list, list(lfx.titles)) # Duplicate titles with list()
 
 			elif operation == "save":
 				# Save
@@ -72,9 +72,9 @@ class TextUI:
 			titles.insert(0, '#')
 			table_data = [titles] # first list in table is headers
 
-			a = 1
+			index = 1
 			for file in files:
-				row = [a]
+				row = [index]
 				for title in titles[1:]:
 					if title in file.attributes:
 						row.append(file.attributes[title])
@@ -82,7 +82,7 @@ class TextUI:
 						row.append("")
 
 				table_data.append(row)
-				a += 1
+				index += 1
 
 			table = AsciiTable(table_data)
 			print table.table

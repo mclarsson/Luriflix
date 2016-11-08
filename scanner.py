@@ -3,13 +3,18 @@
 
 import os
 
-origin_dir = os.path.dirname(os.path.abspath(__file__)) # Start the scan where this file is
-""" str: where to start the scan """
-
 kilobyte = 1024.0
+""" int: How many bytes to a kilobyte """
+
 megabyte = 1048576.0
+""" int: How many bytes to a megabyte """
+
 gigabyte = 1073741824.0
+""" int: How many bytes to a gigabyte """
+
 terabyte = 1099511627776.0
+""" int: How many bytes to a terabyte """
+
 
 class Scanner:
 
@@ -28,6 +33,8 @@ class Scanner:
 		for root, dirs, files in os.walk(directory):
 			for file in files:
 				if any(file.endswith(suffix) and file != suffix for suffix in suffixes):
+
+					# Size is in gigabyte
 					GB = os.stat(root + "\\" + file).st_size / gigabyte
 
 					result.append({

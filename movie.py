@@ -2,9 +2,9 @@
 """ Module with different file types. """
 
 class Movie:
-	suffixes = ['.mkv', '.mp4']
-	filters = ['File', 'Title']
 	titles = ['File', 'Title', 'Size']
+	filters = ['File', 'Title']
+	suffixes = ['.mkv', '.mp4']
 
 	def __init__(self, attributes):
 		self.attributes = attributes
