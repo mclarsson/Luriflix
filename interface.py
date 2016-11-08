@@ -88,6 +88,12 @@ class TextUI:
 			table = AsciiTable(table_data)
 			print table.table
 
+class MovieCover:
+	lh = 18
+	width = 136
+	height = 171
+	margin = 20
+
 class GUI:
 	def __init__(self, lfx):
 
@@ -119,7 +125,7 @@ class GUI:
 		# List of files
 		self.file_list = Canvas(self.top, borderwidth = 0, background = "#fff")
 		self.file_list.grid(column = 0, row = 1, sticky = 'wesn')
-		self.list_files()
+		self.file_list.bind("<Motion>", self.hover_file_list)
 
 		# Scrollbar
 		self.scrollbar = Scrollbar(self.top)
@@ -128,6 +134,8 @@ class GUI:
 		self.scrollbar.grid(column = 1, row = 1, sticky = 'sn')
 
 		# Initiate
+		self.create_covers()
+		self.print_covers()
 		self.top.mainloop()
 
 	def search_key_released(self, key):
@@ -141,17 +149,46 @@ class GUI:
 		else:
 			self.current_list = self.filtered_list
 
-		self.list_files()
+		self.file_list.delete("all")
+		self.print_covers()
 
-	def list_files(self):
+	def create_covers(self):
+		self.covers = []
+		for file in self.current_list:
+			self.covers.append(MovieCover(file))
+
+	def print_covers(self):
 		""" Print current list of files. """
 
-		self.file_list.delete("all")
 		for i in range(len(self.current_list)):
-			file = self.current_list[i]
-			self.file_list.create_rectangle(0, (i * 90), 80, (i * 90) + 80, fill = "#e0e0e0")
-			self.file_list.create_text(90, (i * 90), text = file.attributes['Title'], anchor = 'nw')
-			self.file_list.create_text(90, (i * 90) + 18, text = file.attributes['File'], anchor = 'nw')
-			self.file_list.create_text(90, (i * 90) + 36, text = file.attributes['Source'], anchor = 'nw')
+			self.print_cover(i)
 
 		self.file_list.configure(scrollregion = self.file_list.bbox("all"))
+
+	def print_cover(self, i):
+
+		top = i * (height + margin)
+		file = self.current_list[i]
+
+		self.file_list.create_rectangle(0, top, width, top + width, fill = "#e0e0e0")
+		self.file_list.create_text(width / 2, top + (margin / 2), text = file.attributes['Title'])
+
+	def hover_file_list(self, event):
+		scrolled = self.scrollbar.get()[0]
+		canvas_height = self.file_list.bbox("all")[3]
+		
+		y = event.y + scrolled * canvas_height
+
+		index = int(y) / (width + margin)
+
+		x0 = 0
+		y0 = index * (width + margin)
+		x1 = self.file_list.winfo_width() - margin
+		y1 = y0 + width
+
+		self.file_list.delete("all")
+		
+		if index < len(self.current_list):
+			self.file_list.create_rectangle(x0, y0, x1, y1, fill = "#eee")
+		
+		self.print_covers()
