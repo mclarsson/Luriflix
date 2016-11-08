@@ -2,6 +2,7 @@
 """ Module with interfaces. """
 
 from terminaltables import AsciiTable
+from Tkinter import *
 
 class TextUI:
 	""" Terminal UI for application. Mainly for development """
@@ -87,4 +88,27 @@ class TextUI:
 			table = AsciiTable(table_data)
 			print table.table
 
+class GUI:
+	def __init__(self, lfx):
 
+		# List of all files
+		self.complete_list = lfx.files
+
+		# List of files found through search
+		self.filtered_list = []
+
+		# Currently active list of files
+		self.current_list = self.complete_list
+
+		# GUI stuff
+		top = Tk()
+
+		file_list = Listbox(top)
+		a = 1
+		for file in self.current_list:
+			file_list.insert(a, file.attributes['Title'])
+			a += 1
+
+		file_list.pack()
+
+		top.mainloop()

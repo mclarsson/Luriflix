@@ -76,4 +76,4 @@ class Luriflix:
 
 if __name__ == "__main__":
 	lfx = Luriflix()
-	tui = TextUI(lfx)
+	gui = GUI(lfx)
