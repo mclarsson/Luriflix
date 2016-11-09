@@ -17,7 +17,7 @@ class Luriflix:
 		# Titles that show up when showing list of files
 		self.titles = Movie.titles
 
-		# Which properties to filter
+		# Which attributes to filter
 		self.filters = Movie.filters
 
 		# Where to save current state
@@ -42,14 +42,14 @@ class Luriflix:
 		""" Loads files into system """
 		files = []
 		json = Storage.load_JSON(self.save_file)
-		for properties in json:
-			self.files.append(Movie(properties))
+		for attributes in json:
+			self.files.append(Movie(attributes))
 
 	def save(self):
 		""" Saves current state """
 		json = []
 		for file in self.files:
-			json.append(file.properties)
+			json.append(file.attributes)
 
 		Storage.save_as_JSON(json, self.save_file)
 
@@ -67,9 +67,9 @@ class Luriflix:
 		filtered = []
 
 		for file in self.files:
-			for identifier in self.filters:
+			for attr in self.filters:
 				for query in queries:
-					if query.lower() in file.attributes[identifier].lower() and file not in filtered:
+					if attr in file.attributes and query.lower() in file.attributes[attr].lower() and file not in filtered:
 						filtered.append(file)
 
 		return filtered

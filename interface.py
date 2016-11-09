@@ -3,6 +3,7 @@
 
 from terminaltables import AsciiTable
 from Tkinter import *
+import time
 
 class TextUI:
 	""" Terminal UI for application. Mainly for development """
@@ -89,9 +90,10 @@ class TextUI:
 			print table.table
 
 class MovieCover:
-	width = 136
-	height = 171
-	margin = 20
+	width = 200
+	height = 300
+	marginy = 20
+	marginx = 40
 	padding = 20
 	hovered = -1
 
@@ -126,7 +128,8 @@ class GUI:
 		# List of files
 		self.file_list = Canvas(self.top, borderwidth = 0, background = "#fff")
 		self.file_list.grid(column = 0, row = 1, sticky = 'wens')
-		#self.file_list.bind("<Motion>", self.hover_file_list)
+		self.file_list.bind("<Motion>", self.hover_file_list)
+		self.file_list.bind("<Configure>", self.print_covers)
 
 		# Scrollbar
 		self.scrollbar = Scrollbar(self.top)
@@ -151,39 +154,47 @@ class GUI:
 
 		self.print_covers()
 
-	def print_covers(self):
+	def print_covers(self, event = ""):
 		""" Print current list of files. """
+
+		self.file_list.update()
+		canvas_width = self.file_list.winfo_width()
 
 		width = MovieCover.width
 		height = MovieCover.height
-		margin = MovieCover.margin
+		marginx = MovieCover.marginx
+		marginy = MovieCover.marginy
 		padding = MovieCover.padding
 
-		total_width = margin * 2 + padding * 2 + width
-		total_heigth = margin * 2 + padding * 2  + height
+		cover_heigth = padding * 2 + marginy * 2 + height
+
+		grid_size = min(canvas_width / (width + 2 * marginx), max(len(self.current_list), 1))
+
+		marginx = (canvas_width - (grid_size * width)) / (2 * grid_size)
+		cover_width = marginx * 2 + width
 
 		self.file_list.delete("all")
 
 		for i in range(len(self.current_list)):
 			file = self.current_list[i]
 
-			x1 = (total_width * (i % 4)) + margin + padding
-			y1 = (i / 4) * total_heigth + margin + padding
+			col = i % grid_size
+			row = i / grid_size
 
-			x2 = x1 + width
-			y2 = y1 + height
+			x0 = (cover_width * col) + marginx
+			y0 = (row * cover_heigth) + marginy + padding
 
-			self.file_list.create_rectangle(x1, y1, x2, y2, fill = "#e0e0e0")
-			self.file_list.create_text(x1 + ((x2 - x1) / 2), y2 + (margin / 2), text = file.attributes['Title'])
+			x1 = x0 + width
+			y1 = y0 + height
 
-		self.file_list.configure(scrollregion = self.file_list.bbox("all"))
+			self.file_list.create_rectangle(x0, y0, x0 + width, y0 + height, fill = "#2ecc71")
+			self.file_list.create_text(x0 + ((x1 - x0) / 2), y1 + marginy / 2, text = file.attributes['File'][:20])
+
+		bbox = self.file_list.bbox(ALL)
+		self.file_list.config(scrollregion = (0, 0, bbox[2] + marginx + padding, bbox[3]))
 
 	def hover_file_list(self, event):
-		scrolled = self.scrollbar.get()[0]
-		canvas_height = self.file_list.bbox("all")[3]
-		
-		y = event.y + scrolled * canvas_height
-
-		index = int(y) / (width + margin)
-		
-		self.print_covers()
+		canvas = event.widget
+		x = canvas.canvasx(event.x)
+		y = canvas.canvasy(event.y)
+		#print canvas.find_closest(x, y)
