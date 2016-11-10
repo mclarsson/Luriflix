@@ -1,741 +1,816 @@
 [{
     "Source": "F:Filmer\\12 Angry Men",
+    "Title": "12 Angry Men",
     "File": "12.Angry.Men.1957.720p.BRrip.x264.YIFY.mp4",
     "Size": 0.6836626185104251
 }, {
     "Source": "F:Filmer\\12 Years a Slave",
+    "Title": "12 Years a Slave",
     "File": "12.Years.a.Slave.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.9491221429780126
 }, {
     "Source": "F:Filmer\\127 Hours",
+    "Title": "127 Hours",
     "File": "127.Hours.2010.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.4013520302250981
 }, {
     "Source": "F:Filmer\\2001 A Space Odyssey",
+    "Title": "2001 A Space Odyssey",
     "File": "2001.A.Space.Odyssey.1968.1080p.BluRay.x264.anoXmous_.mp4",
     "Size": 2.5696751521900296
 }, {
     "Source": "F:Filmer\\22 Jump Street",
+    "Title": "22 Jump Street",
     "File": "22.Jump.Street.2014.1080p.WEB-DL.AAC2.0.H264-RARBG.mkv",
     "Size": 3.2838025959208608
 }, {
     "Source": "F:Filmer\\50-50",
+    "Title": "50-50",
     "File": "50.50.2011.720p.BrRip.x264.YIFY.mp4",
     "Size": 0.6842701453715563
 }, {
     "Source": "F:Filmer\\A Clockwork Orange",
+    "Title": "A Clockwork Orange",
     "File": "A.Clockwork.Orange.1971.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.4997589644044638
 }, {
     "Source": "F:Filmer\\Akira",
+    "Title": "Akira",
     "File": "Akira.1988.25th.Anniversary.Edition.1080p.BluRay.x264.anoXmous_.mp4",
     "Size": 2.1488162567839026
 }, {
     "Source": "F:Filmer\\All The President's Men",
+    "Title": "All The President's Men",
     "File": "All.The.President's.Men.1976.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 2.0727408910170197
 }, {
     "Source": "F:Filmer\\American Hustle",
+    "Title": "American Hustle",
     "File": "American.Hustle.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 2.0387055641040206
 }, {
     "Source": "F:Filmer\\American Psycho",
+    "Title": "American Psycho",
     "File": "American.Psycho.2000.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.397108854725957
 }, {
     "Source": "F:Filmer\\Amy",
+    "Title": "Amy",
     "File": "Amy.2015.1080p.BluRay.x264.VPPV.mp4",
     "Size": 2.8577790297567844
 }, {
     "Source": "F:Filmer\\Anchorman 2",
+    "Title": "Anchorman 2",
     "File": "Anchorman.2.The.Legend.Continues.2013.UNRATED.1080p.WEB-DL.H264-PublicHD.mkv",
     "Size": 3.800438988953829
 }, {
     "Source": "F:Filmer\\Argo",
+    "Title": "Argo",
     "File": "Argo.2012.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
     "Size": 5.456088270060718
 }, {
     "Source": "F:Filmer\\Back to the Future",
+    "Title": "Back to the Future",
     "File": "Back.to.the.Future.1985.1080p.Brrip.x264.Deceit.YIFY.mp4",
     "Size": 1.494223941117525
 }, {
     "Source": "F:Filmer\\Batman The Killing Joke",
+    "Title": "Batman The Killing Joke",
     "File": "Batman.The.Killing.Joke.2016.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 1.1691343011334538
 }, {
     "Source": "F:Filmer\\Batman Under The Red Hood",
+    "Title": "Batman Under The Red Hood",
     "File": "Batman.Under.The.Red.Hood.2010.1080p.BRrip.x264.YIFY.mp4",
     "Size": 1.1029277872294188
 }, {
     "Source": "F:Filmer\\Big Hero 6",
+    "Title": "Big Hero 6",
     "File": "Big.Hero.6.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.645599054172635
 }, {
     "Source": "F:Filmer\\Birdman",
+    "Title": "Birdman",
     "File": "Birdman.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.8431308381259441
 }, {
     "Source": "F:Filmer\\Blackfish",
+    "Title": "Blackfish",
     "File": "Blackfish.2013.LIMITED.DOCU.720p.BluRay.x264-GECKOS.mkv",
     "Size": 3.2697786539793015
 }, {
     "Source": "F:Filmer\\Borat",
+    "Title": "Borat",
     "File": "Borat.2006.720p.BrRip.x264.YIFY.mp4",
     "Size": 0.6359079936519265
 }, {
     "Source": "F:Filmer\\Bridge Of Spies",
+    "Title": "Bridge Of Spies",
     "File": "Bridge.Of.Spies.2015.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 2.1441443413496017
 }, {
     "Source": "F:Filmer\\Bruno",
+    "Title": "Bruno",
     "File": "Bruno.2009.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.2037176517769694
 }, {
     "Source": "F:Filmer\\Captain America The Winter Soldier",
+    "Title": "Captain America The Winter Soldier",
     "File": "Captain.America.The.Winter.Soldier.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.9590401127934456
 }, {
     "Source": "F:Filmer\\Captain Fantastic",
+    "Title": "Captain Fantastic",
     "File": "Captain.Fantastic.2016.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 1.8160302937030792
 }, {
     "Source": "F:Filmer\\Captain Phillips",
+    "Title": "Captain Phillips",
     "File": "Captain Phillips 1080p BluRay x264.mkv",
     "Size": 3.172236447222531
 }, {
     "Source": "F:Filmer\\Deadpool",
+    "Title": "Deadpool",
     "File": "Deadpool.2016.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 2.0621562553569674
 }, {
     "Source": "F:Filmer\\District 9",
+    "Title": "District 9",
     "File": "District.9.2009.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
     "Size": 6.556436825543642
 }, {
     "Source": "F:Filmer\\Django Unchained",
+    "Title": "Django Unchained",
     "File": "Django.Unchained.2012.SWESUB.720p.BluRay.x264-HDQ.mkv",
     "Size": 6.553632591851056
 }, {
     "Source": "F:Filmer\\Donnie Darko DIRECTORS CUT",
+    "Title": "Donnie Darko DIRECTORS CUT",
     "File": "Donnie.Darko.DIRECTORS.CUT.2001.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.8018173575401306
 }, {
     "Source": "F:Filmer\\Drive",
+    "Title": "Drive",
     "File": "Drive.2011.SWESUB.Bluray.720p.DTS.x264-WookieCookie.mkv",
     "Size": 2.242848102003336
 }, {
     "Source": "F:Filmer\\Edge of Tomorrow",
+    "Title": "Edge of Tomorrow",
     "File": "Edge.of.Tomorrow.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.646758827380836
 }, {
     "Source": "F:Filmer\\End Of Watch",
+    "Title": "End Of Watch",
     "File": "End.of.Watch.2012.SWESUB.FINSUB.720p.BluRay-Robblowe.mkv",
     "Size": 5.187277441844344
 }, {
     "Source": "F:Filmer\\Enemy",
+    "Title": "Enemy",
     "File": "Enemy.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.2457047095522285
 }, {
     "Source": "F:Filmer\\Ex Machina",
+    "Title": "Ex Machina",
     "File": "Ex.Machina.2015.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.6305177193135023
 }, {
     "Source": "F:Filmer\\Fight Club",
+    "Title": "Fight Club",
     "File": "Fight.Club.10th.Anniversary.Edition.1999.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.851257797330618
 }, {
     "Source": "F:Filmer\\Finding Dory",
+    "Title": "Finding Dory",
     "File": "Finding.Dory.2016.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 1.4706770116463304
 }, {
     "Source": "F:Filmer\\Flight",
+    "Title": "Flight",
     "File": "Flight.2012.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
     "Size": 5.4593235701322556
 }, {
     "Source": "F:Filmer\\Frozen",
+    "Title": "Frozen",
     "File": "Frozen.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.6344764679670334
 }, {
     "Source": "F:Filmer\\Full Metal Jacket",
+    "Title": "Full Metal Jacket",
     "File": "Full Metal Jacket 1987.Remastered.True.1080p.BluRay.5.1.x264 . NVEE.mp4",
     "Size": 2.5986465103924274
 }, {
     "Source": "F:Filmer\\Gangs of New York",
+    "Title": "Gangs of New York",
     "File": "Gangs.Of.New.York.2002.REMASTERED.2002.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
     "Size": 2.199043618515134
 }, {
     "Source": "F:Filmer\\Get Hard",
+    "Title": "Get Hard",
     "File": "Get.Hard.2015.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.6416173856705427
 }, {
-    "Source": "F:Filmer\\Ghost in the Shell",
-    "File": "Ghost in the Shell (1995) 1080p 5.1 Blu-ray.mp4",
-    "Size": 1.8984543532133102
-}, {
     "Source": "F:Filmer\\Ghostbusters",
+    "Title": "Ghostbusters",
     "File": "Ghostbusters.1984.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.6358378594741225
 }, {
     "Source": "F:Filmer\\Godzilla",
+    "Title": "Godzilla",
     "File": "Godzilla.2014.720p.BluRay.x264.YIFY.mp4",
     "Size": 0.8479404645040631
 }, {
     "Source": "F:Filmer\\Gone Girl",
+    "Title": "Gone Girl",
     "File": "Gone.Girl.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 2.1527413045987487
 }, {
     "Source": "F:Filmer\\Goodfellas",
+    "Title": "Goodfellas",
     "File": "Goodfellas.1990.720p.BrRip.264.YIFY.mp4",
     "Size": 0.6826463118195534
 }, {
     "Source": "F:Filmer\\Guardians of the Galaxy",
+    "Title": "Guardians of the Galaxy",
     "File": "Guardians.of.the.Galaxy.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.8522410793229938
 }, {
     "Source": "F:Filmer\\Her",
+    "Title": "Her",
     "File": "Her.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.854749996215105
 }, {
-    "Source": "F:Filmer\\Hitta Nemo",
-    "File": "rcdivx-fnemo-se-720p.mkv",
-    "Size": 2.1825221087783575
-}, {
     "Source": "F:Filmer\\Howls Moving Castle",
+    "Title": "Howls Moving Castle",
     "File": "Howls Moving Castle 720p BluRay x264-EbP.mkv",
     "Size": 4.63033389672637
 }, {
     "Source": "F:Filmer\\Imperium",
+    "Title": "Imperium",
     "File": "Imperium.2016.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 1.6564169460907578
 }, {
-    "Source": "F:Filmer\\Indiana Jones The Complete Adventures\\Indiana Jones and the Raiders of the Lost Ark",
-    "File": "Indiana.Jones.and.the.Raiders.of.the.Lost.Ark.1981.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
-    "Size": 5.463094951584935
-}, {
-    "Source": "F:Filmer\\Indiana Jones The Complete Adventures\\Indiana.Jones.and.the.Last.Crusade.1989.SWESUB.720p.BluRay.x264-Mr.Stiffy",
-    "File": "Indiana.Jones.and.the.Last.Crusade.1989.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
-    "Size": 5.4625183725729585
-}, {
-    "Source": "F:Filmer\\Indiana Jones The Complete Adventures\\Indiana.Jones.and.the.Temple.of.Doom.1984.SWESUB.720p.BluRay.x264-Mr.Stiffy",
-    "File": "Indiana.Jones.and.the.Temple.of.Doom.1984.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
-    "Size": 5.461807976476848
-}, {
     "Source": "F:Filmer\\Inglourious Basterds",
+    "Title": "Inglourious Basterds",
     "File": "Inglourious Basterds - 2009 1080p Swesub.mkv",
     "Size": 10.92735761217773
 }, {
     "Source": "F:Filmer\\Inside Out",
+    "Title": "Inside Out",
     "File": "Inside.Out.2015.720p.BluRay.x264.YIFY.mp4",
     "Size": 0.7369018932804465
 }, {
     "Source": "F:Filmer\\It Follows",
+    "Title": "It Follows",
     "File": "It.Follows.2014.720p.BluRay.x264.YIFY.mp4",
     "Size": 0.7378485295921564
 }, {
     "Source": "F:Filmer\\Jackie Brown",
+    "Title": "Jackie Brown",
     "File": "Jackie.Brown.1997.720p.BRRip.x264.DTS-anoXmous.mkv",
     "Size": 4.874199296347797
 }, {
     "Source": "F:Filmer\\Jiro Dreams Of Sushi",
+    "Title": "Jiro Dreams Of Sushi",
     "File": "Jiro.Dreams.of.Sushi.2011.1080p.BluRay.DD5.1.x264-EbP.mkv",
     "Size": 5.722667925991118
 }, {
     "Source": "F:Filmer\\John Wick",
+    "Title": "John Wick",
     "File": "John.Wick.2014.1080p.BluRay.AC3.x264-tomcat12[ETRG].mkv",
     "Size": 3.8019812051206827
 }, {
     "Source": "F:Filmer\\Jurassic Park",
+    "Title": "Jurassic Park",
     "File": "Jurassic.Park.1993.1080p.BRrip.x264.YIFY.mp4",
     "Size": 1.7954407148063183
 }, {
     "Source": "F:Filmer\\Jurassic World",
+    "Title": "Jurassic World",
     "File": "Jurassic.World.2015.1080p.BluRay.x264.VPPV.mp4",
     "Size": 2.943717911839485
 }, {
     "Source": "F:Filmer\\Kick-Ass 2",
+    "Title": "Kick-Ass 2",
     "File": "Kick-Ass.2.2013.720p.BluRay.x264.YIFY.mp4",
     "Size": 0.7853614902123809
 }, {
-    "Source": "F:Filmer\\Kill Bill",
-    "File": "Kill Bill Vol. 1.mkv",
-    "Size": 4.295979849994183
-}, {
-    "Source": "F:Filmer\\Kill Bill",
-    "File": "Kill Bill Vol. 2.mkv",
-    "Size": 5.326529475860298
-}, {
     "Source": "F:Filmer\\Kingsman The Secret Service",
+    "Title": "Kingsman The Secret Service",
     "File": "Kingsman.The.Secret.Service.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.952433136291802
 }, {
     "Source": "F:Filmer\\Kung Fu Panda",
+    "Title": "Kung Fu Panda",
     "File": "Kung.Fu.Panda.2008.720p.BrRip.x264.YIFY.mp4",
     "Size": 0.5877654617652297
 }, {
     "Source": "F:Filmer\\Kung Fu Panda 2",
+    "Title": "Kung Fu Panda 2",
     "File": "Kung Fu Panda 2.x264.BrRip.YIFY.mp4",
     "Size": 0.5870293788611889
 }, {
     "Source": "F:Filmer\\Kung Fu Panda 3",
+    "Title": "Kung Fu Panda 3",
     "File": "Kung.Fu.Panda.3.2016.720p.BluRay.x264-[YTS.AG].mp4",
     "Size": 0.6798940235748887
 }, {
     "Source": "F:Filmer\\Lawless",
+    "Title": "Lawless",
     "File": "Lawless.2012.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
     "Size": 5.460291958414018
 }, {
     "Source": "F:Filmer\\Limitless",
+    "Title": "Limitless",
     "File": "Limitless.2011.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.4025851106271148
 }, {
     "Source": "F:Filmer\\Lion King",
+    "Title": "Lion King",
     "File": "The.Lion.King.1.1080p.BluRay.SWESUB.0lizzz242.mp4",
     "Size": 2.810100931674242
 }, {
     "Source": "F:Filmer\\Locke",
+    "Title": "Locke",
     "File": "Locke.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.240982503630221
 }, {
     "Source": "F:Filmer\\Looper",
+    "Title": "Looper",
     "File": "Looper.2012.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.8028498040512204
 }, {
     "Source": "F:Filmer\\Mad Max Fury Road",
+    "Title": "Mad Max Fury Road",
     "File": "Mad.Max.Fury.Road.2015.720p.BluRay.x264.YIFY.mp4",
     "Size": 0.8473319429904222
 }, {
-    "Source": "F:Filmer\\Magnolia",
-    "File": "Magnolia (1).mkv",
-    "Size": 0.7789587127044797
-}, {
     "Source": "F:Filmer\\Man of Steel",
+    "Title": "Man of Steel",
     "File": "Man.of.Steel.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 2.041506831534207
 }, {
     "Source": "F:Filmer\\Moon",
+    "Title": "Moon",
     "File": "Moon.2009.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.4354555672034621
 }, {
     "Source": "F:Filmer\\Moonrise Kingdom",
+    "Title": "Moonrise Kingdom",
     "File": "Moonrise.Kingdom.2012.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.5050651067867875
 }, {
     "Source": "F:Filmer\\Mud",
+    "Title": "Mud",
     "File": "Mud.2012.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.9538593487814069
 }, {
     "Source": "F:Filmer\\My Neighbor Totoro",
+    "Title": "My Neighbor Totoro",
     "File": "My.Neighbor.Totoro.1988.720p.BluRay.X264-AMIABLE.mkv",
     "Size": 3.274063483811915
 }, {
     "Source": "F:Filmer\\Napoleon Dynamite",
+    "Title": "Napoleon Dynamite",
     "File": "Napoleon.Dynamite.2004.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.303566761314869
 }, {
     "Source": "F:Filmer\\Nebraska",
+    "Title": "Nebraska",
     "File": "Nebraska.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.8460625652223825
 }, {
     "Source": "F:Filmer\\Nightcrawler",
+    "Title": "Nightcrawler",
     "File": "Nightcrawler.2014.720p.BluRay.x264.YIFY.mp4",
     "Size": 0.8446181816980243
 }, {
     "Source": "F:Filmer\\No Country For Old Men",
+    "Title": "No Country For Old Men",
     "File": "No.Country.For.Old.Men.2007.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.5972892148420215
 }, {
     "Source": "F:Filmer\\O Brother, Where Art Thou",
+    "Title": "O Brother, Where Art Thou",
     "File": "O.Brother.Where.Art.Thou.2000.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.4532753368839622
 }, {
     "Source": "F:Filmer\\Only God Forgives",
+    "Title": "Only God Forgives",
     "File": "Only.God.Forgives.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.2395823169499636
 }, {
     "Source": "F:Filmer\\Palme\\Palme.2012.E01.SWEDiSH.WEBRiP.720p.x264-EiNRiDE",
+    "Title": "Palme\\Palme.2012.E01.SWEDiSH.WEBRiP.720p.x264-EiNRiDE",
     "File": "palme.2012.e01.swedish.webrip.720p.x264-einride.mp4",
     "Size": 1.122256794013083
 }, {
     "Source": "F:Filmer\\Palme\\Palme.2012.E02.SWEDiSH.WEBRiP.720p.x264-EiNRiDE",
+    "Title": "Palme\\Palme.2012.E02.SWEDiSH.WEBRiP.720p.x264-EiNRiDE",
     "File": "palme.2012.e02.swedish.webrip.720p.x264-einride.mp4",
     "Size": 1.1271727746352553
 }, {
     "Source": "F:Filmer\\Palme\\Palme.2012.E03.SWEDiSH.WEBRiP.720p.x264-EiNRiDE",
+    "Title": "Palme\\Palme.2012.E03.SWEDiSH.WEBRiP.720p.x264-EiNRiDE",
     "File": "palme.2012.e03.swedish.webrip.720p.x264-einride.mp4",
     "Size": 1.1363040981814265
 }, {
     "Source": "F:Filmer\\Particle Fever",
+    "Title": "Particle Fever",
     "File": "Particle.Fever.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.4390356028452516
 }, {
     "Source": "F:Filmer\\Polytechnique",
+    "Title": "Polytechnique",
     "File": "polytechnique.2009.1080p.bluray.dts.x264-publichd.mkv",
     "Size": 7.463800689205527
 }, {
     "Source": "F:Filmer\\Predator",
+    "Title": "Predator",
     "File": "Predator.1987.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 2.0329764261841774
 }, {
     "Source": "F:Filmer\\Princess Mononoke",
+    "Title": "Princess Mononoke",
     "File": "Princess Mononoke 1997 1080p BluRay Ita Jap Eng x265-NAHOM.mkv",
     "Size": 3.408596321940422
 }, {
     "Source": "F:Filmer\\Prisoners",
+    "Title": "Prisoners",
     "File": "Prisoners.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 2.0500601613894105
 }, {
     "Source": "F:Filmer\\Pulp Fiction",
+    "Title": "Pulp Fiction",
     "File": "Pulp.Fiction.1994.720p.BRRip.x264.DTS-anoXmous.mkv",
     "Size": 5.042177713476121
 }, {
-    "Source": "F:Filmer\\Rain Man",
-    "File": "Rain Man (1988)  1080p.mkv",
-    "Size": 4.732064162380993
-}, {
-    "Source": "F:Filmer\\Rambo 1-4\\01.Rambo.1982.720p.BluRay.x264.anoXmous",
-    "File": "Rambo.1982.720p.BluRay.x264.anoXmous_.mp4",
-    "Size": 0.7251233644783497
-}, {
-    "Source": "F:Filmer\\Rambo 1-4\\02.Rambo.2.1985.720p.BluRay.x264.anoXmous",
-    "File": "Rambo.2.1985.720p.BluRay.x264.anoXmous_.mp4",
-    "Size": 0.7458966933190823
-}, {
-    "Source": "F:Filmer\\Rambo 1-4\\03.Rambo.3.1988.720p.BluRay.x264.anoXmous",
-    "File": "Rambo.3.1988.720p.BluRay.x264.anoXmous_.mp4",
-    "Size": 0.7904130695387721
-}, {
-    "Source": "F:Filmer\\Rambo 1-4\\04.Rambo.2008.720p.BluRay.x264.anoXmous",
-    "File": "Rambo.2008.720p.BluRay.x264.anoXmous_.mp4",
-    "Size": 0.7107532760128379
-}, {
     "Source": "F:Filmer\\Reservoir Dogs",
-    "File": " Reservoir.Dogs.1992.720p.x264.AC3(5.1)-anoXmous.mkv",
+    "Title": "Reservoir Dogs",
+    "File": "Reservoir.Dogs.1992.720p.x264.AC3(5.1)-anoXmous.mkv",
     "Size": 4.110535209998488
 }, {
     "Source": "F:Filmer\\Rise of the Guardians",
+    "Title": "Rise of the Guardians",
     "File": "Rise.of.the.Guardians.2012.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.5012979442253709
 }, {
     "Source": "F:Filmer\\Schindlers List",
+    "Title": "Schindlers List",
     "File": "Schindlers.List.1993.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
     "Size": 2.501645863056183
 }, {
     "Source": "F:Filmer\\Searchin For Sugarman",
+    "Title": "Searchin For Sugarman",
     "File": "Searching.for.Sugar.Man.2012.720p.BRRip.x264.AC3-JYK.mkv",
     "Size": 1.929639500565827
 }, {
     "Source": "F:Filmer\\Selma",
+    "Title": "Selma",
     "File": "Selma.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.9464520504698157
 }, {
     "Source": "F:Filmer\\Sicario",
+    "Title": "Sicario",
     "File": "Sicario.2015.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 2.313504914753139
 }, {
     "Source": "F:Filmer\\Silver Linings Playbook",
+    "Title": "Silver Linings Playbook",
     "File": "Silver.Linings.Playbook.2012.1080p.x264.YIFY.mp4",
     "Size": 1.7962887175381184
 }, {
     "Source": "F:Filmer\\Sin City",
+    "Title": "Sin City",
     "File": "Sin.City.2005.1080p.BluRay.x264.anoXmous_.mp4",
     "Size": 1.5011981399729848
 }, {
     "Source": "F:Filmer\\Slumdog Millionaire",
+    "Title": "Slumdog Millionaire",
     "File": "Slumdog.Millionaire.2008.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.8396958159282804
 }, {
-    "Source": "F:Filmer\\Snabba Cash 2",
-    "File": "imsorny-snabba.cash.2.720p.mkv",
-    "Size": 4.363522329367697
-}, {
     "Source": "F:Filmer\\Snatch",
+    "Title": "Snatch",
     "File": "Snatch.2000.BRRip.mkv",
     "Size": 0.43916669953614473
 }, {
-    "Source": "F:Filmer\\Source Code",
-    "File": "Source Code ( 2011 ) 1080p BrRip x264 1.16GB YIFY.mp4",
-    "Size": 1.1703266147524118
-}, {
     "Source": "F:Filmer\\Spectre",
+    "Title": "Spectre",
     "File": "Spectre.2015.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 2.8256268110126257
 }, {
     "Source": "F:Filmer\\Spirited Away",
+    "Title": "Spirited Away",
     "File": "Spirited.Away.2001.720p.BluRay.950MB.ShAaNiG.com.mkv",
     "Size": 0.9276468614116311
 }, {
     "Source": "F:Filmer\\Spotlight",
+    "Title": "Spotlight",
     "File": "Spotlight.2015.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 2.4638598738238215
 }, {
     "Source": "F:Filmer\\Star Trek Beyond",
+    "Title": "Star Trek Beyond",
     "File": "Star.Trek.Beyond.2016.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 1.8584969593212008
 }, {
     "Source": "F:Filmer\\Star Trek Into Darkness",
+    "Title": "Star Trek Into Darkness",
     "File": "Star Trek Into Darkness [2013] 720P WEBRip H264-ETRG.mp4",
     "Size": 1.999898875132203
 }, {
     "Source": "F:Filmer\\Step Brothers",
+    "Title": "Step Brothers",
     "File": "Step.Brothers.SweSub.1080p.BluRay.Makan747.mkv",
     "Size": 0.5367288533598185
 }, {
     "Source": "F:Filmer\\Steve Jobs",
+    "Title": "Steve Jobs",
     "File": "Steve.Jobs.2015.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 2.333854615688324
 }, {
     "Source": "F:Filmer\\Straight Outta Compton",
+    "Title": "Straight Outta Compton",
     "File": "Straight.Outta.Compton.2015.DC.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 3.180836339481175
 }, {
     "Source": "F:Filmer\\Synecdoche, New York",
+    "Title": "Synecdoche, New York",
     "File": "Synecdoche.New.York.2008.720p.BrRip.x264.YIFY.mp4",
     "Size": 0.7343423329293728
 }, {
     "Source": "F:Filmer\\Ted",
+    "Title": "Ted",
     "File": "Ted.2012.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
     "Size": 4.368247049860656
 }, {
     "Source": "F:Filmer\\Ted 2",
+    "Title": "Ted 2",
     "File": "Ted 2 2015 UNCENSORED 1080p HC HDRip x264 AAC-JYK.mkv",
     "Size": 2.4557593297213316
 }, {
     "Source": "F:Filmer\\The Babadook",
+    "Title": "The Babadook",
     "File": "The.Babadook.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.2446677219122648
 }, {
     "Source": "F:Filmer\\The Big Short",
+    "Title": "The Big Short",
     "File": "The Big Short 2015 1080p WEB-DL x264 AC3-JYK.mkv",
     "Size": 3.586207232438028
 }, {
     "Source": "F:Filmer\\The Boat That Rocked",
+    "Title": "The Boat That Rocked",
     "File": "The.Boat.That.Rocked.SWESUB.720p.BluRay.x264-BLOWiEJOB.mp4",
     "Size": 5.959633741527796
 }, {
     "Source": "F:Filmer\\The Cabin in The Woods",
+    "Title": "The Cabin in The Woods",
     "File": "The.Cabin.in.The.Woods.2011.SWESUB.BluRay.720p.x264-Fuvisa (1).mkv",
     "Size": 4.368715258315206
 }, {
     "Source": "F:Filmer\\The Conjuring",
+    "Title": "The Conjuring",
     "File": "The.Conjuring.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.6520448187366128
 }, {
     "Source": "F:Filmer\\The Dark Knight",
+    "Title": "The Dark Knight",
     "File": "The.Dark.Knight.2008.720p.BluRay.x264-Canal+.mkv",
     "Size": 7.946140371263027
 }, {
     "Source": "F:Filmer\\The Dark Knight Rises",
+    "Title": "The Dark Knight Rises",
     "File": "The.Dark.Knight.Rises.2012.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
     "Size": 6.555641558021307
 }, {
     "Source": "F:Filmer\\The Departed",
+    "Title": "The Departed",
     "File": "The.Departed.2006.BluRay.1080p.x264.YIFY.mp4",
     "Size": 1.9974990747869015
 }, {
     "Source": "F:Filmer\\The Descendants",
+    "Title": "The Descendants",
     "File": "The.Descendants.2011.1080p.BluRay.x264.anoXmous_.mp4",
     "Size": 1.8758486397564411
 }, {
     "Source": "F:Filmer\\The Dictator",
+    "Title": "The Dictator",
     "File": "The.Dictator.2012.SWESUB.720p.BluRay.X264-NEVERMiND.mkv",
     "Size": 4.368695934303105
 }, {
     "Source": "F:Filmer\\The Fifth Estate",
+    "Title": "The Fifth Estate",
     "File": "The.Fifth.Estate.2013.720p.BluRay.x264.YIFY.mp4",
     "Size": 0.9004213716834784
 }, {
     "Source": "F:Filmer\\The Godfather",
+    "Title": "The Godfather",
     "File": "The.Godfather.1972.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
     "Size": 2.4010360408574343
 }, {
     "Source": "F:Filmer\\The Godfather Part 2",
+    "Title": "The Godfather Part 2",
     "File": "The.Godfather.Part.2.1974.1080p.BrRip.x264.BOKUTOX.YIFY.mp4",
     "Size": 2.702056319452822
 }, {
     "Source": "F:Filmer\\The Good Dinosaur",
+    "Title": "The Good Dinosaur",
     "File": "The.Good.Dinosaur.2015.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 1.7864886224269867
 }, {
     "Source": "F:Filmer\\The Good The Bad And The Ugly",
+    "Title": "The Good The Bad And The Ugly",
     "File": "The.Good.the.Bad.and.the.Ugly.1966.1080p.BrRip.x264.YIFY.mp4",
     "Size": 2.3977821711450815
 }, {
     "Source": "F:Filmer\\The Great Gatsby",
+    "Title": "The Great Gatsby",
     "File": "The.Great.Gatsby.2013.BRRip.SWESUB.x264 AAC.mkv",
     "Size": 1.2366454815492034
 }, {
     "Source": "F:Filmer\\The Green Mile",
+    "Title": "The Green Mile",
     "File": "The.Green.Mile.1999.1080p.BrRip.x264.YIFY.mp4",
     "Size": 2.4985413942486048
 }, {
     "Source": "F:Filmer\\The Hangover",
+    "Title": "The Hangover",
     "File": "The.Hangover.2009.UNRATED.720p.BrRip.x264.YIFY.mp4",
     "Size": 0.6368390852585435
 }, {
     "Source": "F:Filmer\\The Hateful Eight",
+    "Title": "The Hateful Eight",
     "File": "The.Hateful.Eight.2015.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 2.540192020125687
 }, {
     "Source": "F:Filmer\\The Hobbit - An Unexpected Journey",
+    "Title": "The Hobbit - An Unexpected Journey",
     "File": "The.Hobbit.An.Unexpected.Journey.2012.SWESUB.720p.BluRay.x264-Mr.Stiffy.mkv",
     "Size": 6.548910688608885
 }, {
     "Source": "F:Filmer\\The Hobbit The Desolation of Smaug",
+    "Title": "The Hobbit The Desolation of Smaug",
     "File": "The.Hobbit.The.Desolation.of.Smaug.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 2.0567612163722515
 }, {
     "Source": "F:Filmer\\The Imitation Game",
+    "Title": "The Imitation Game",
     "File": "The.Imitation.Game.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.839776860550046
 }, {
     "Source": "F:Filmer\\The Incredibles",
+    "Title": "The Incredibles",
     "File": "The.Incredibles.2004.1080p.BDRip.Rus.Eng.mkv",
     "Size": 8.444903231225908
 }, {
     "Source": "F:Filmer\\The Lego Movie",
+    "Title": "The Lego Movie",
     "File": "The.Lego.Movie.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.442902209237218
 }, {
     "Source": "F:Filmer\\The Life Aquatic with Steve Zissou",
+    "Title": "The Life Aquatic with Steve Zissou",
     "File": "The.Life.Aquatic.with.Steve.Zissou.2004.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.8506791945546865
 }, {
-    "Source": "F:Filmer\\The Lord of the Rings Extended Trilogy",
-    "File": "2001.The Fellowship of the Ring (1).mkv",
-    "Size": 4.258412624709308
-}, {
-    "Source": "F:Filmer\\The Lord of the Rings Extended Trilogy",
-    "File": "2001.The Fellowship of the Ring (2).mkv",
-    "Size": 4.19263415876776
-}, {
-    "Source": "F:Filmer\\The Lord of the Rings Extended Trilogy",
-    "File": "2002.The Two Towers (1).mkv",
-    "Size": 4.29582011140883
-}, {
-    "Source": "F:Filmer\\The Lord of the Rings Extended Trilogy",
-    "File": "2002.The Two Towers (2).mkv",
-    "Size": 4.480674158781767
-}, {
-    "Source": "F:Filmer\\The Lord of the Rings Extended Trilogy",
-    "File": "2003.The Return of the King (1).mkv",
-    "Size": 5.138860366307199
-}, {
-    "Source": "F:Filmer\\The Lord of the Rings Extended Trilogy",
-    "File": "2003.The Return of the King (2).mkv",
-    "Size": 4.446090620942414
-}, {
     "Source": "F:Filmer\\The Martian",
+    "Title": "The Martian",
     "File": "The.Martian.2015.1080p.BluRay.x264.AC3-ETRG.mp4",
     "Size": 3.991098281927407
 }, {
     "Source": "F:Filmer\\The Master",
+    "Title": "The Master",
     "File": "The.Master.2012.1080p.BRrip.x264.GAZ.YIFY.mp4",
     "Size": 1.9034706139937043
 }, {
     "Source": "F:Filmer\\The Matrix",
+    "Title": "The Matrix",
     "File": "The.Matrix.1999.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.8552438030019403
 }, {
     "Source": "F:Filmer\\The Nice Guys",
+    "Title": "The Nice Guys",
     "File": "The.Nice.Guys.2016.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 1.7680153381079435
 }, {
     "Source": "F:Filmer\\The Place Beyond the Pines",
+    "Title": "The Place Beyond the Pines",
     "File": "The Place Beyond the Pines (2012) 1080p BrRip 5.1 x264 aac [TuGAZx].mp4",
     "Size": 2.9250260638073087
 }, {
     "Source": "F:Filmer\\The Prestige",
+    "Title": "The Prestige",
     "File": "The.Prestige.2006.720p.BluRay.Swesub-DarkLord2011 .mkv",
     "Size": 2.4986526761204004
 }, {
     "Source": "F:Filmer\\The Shining",
+    "Title": "The Shining",
     "File": "The.shining.1980.720p.x264.mkv",
     "Size": 0.6347747007384896
 }, {
     "Source": "F:Filmer\\The Silence Of The Lambs",
+    "Title": "The Silence Of The Lambs",
     "File": "The.Silence.Of.The.Lambs.1991.1080p.BluRay.X264.YIFY.mp4",
     "Size": 1.5003512669354677
 }, {
     "Source": "F:Filmer\\The Social Network",
+    "Title": "The Social Network",
     "File": "The Social Network (2010) 1080p BrRip x264 - 1.2GB - YIFY.mp4",
     "Size": 1.2006033873185515
 }, {
     "Source": "F:Filmer\\The Tale of The Princess Kaguya",
+    "Title": "The Tale of The Princess Kaguya",
     "File": "the.tale.of.the.princess.kaguya.2013.bdrip.x264-psychd.mkv",
     "Size": 0.9830941762775183
 }, {
     "Source": "F:Filmer\\The Terminator",
+    "Title": "The Terminator",
     "File": "The.Terminator.1984.1080p.BluRay.x264-MARS.mkv",
     "Size": 9.510924159549177
 }, {
-    "Source": "F:Filmer\\The Terminator\\Sample",
-    "File": "sample-the.terminator.1984.1080p.bluray.x264-mars.mkv",
-    "Size": 0.10268496815115213
-}, {
     "Source": "F:Filmer\\The Town",
+    "Title": "The Town",
     "File": "The Town (2010) 1080p [mkvonly].mkv",
     "Size": 4.6636140793561935
 }, {
     "Source": "F:Filmer\\The Wind Rises",
+    "Title": "The Wind Rises",
     "File": "the.wind.rises.2013.1080p.bluray.x264-psychd.mkv",
     "Size": 5.464436551555991
 }, {
     "Source": "F:Filmer\\The Wolf of Wall Street",
+    "Title": "The Wolf of Wall Street",
     "File": "The.Wolf.of.Wall.Street.2013.1080p.BluRay.x264.YIFY.mp4",
     "Size": 2.0759019628167152
 }, {
     "Source": "F:Filmer\\There Will Be Blood",
+    "Title": "There Will Be Blood",
     "File": "There.Will.Be.Blood.2007.1080p.BluRay.x264.anoXmous_.mp4",
     "Size": 2.459442392922938
 }, {
     "Source": "F:Filmer\\Toy Story 3",
+    "Title": "Toy Story 3",
     "File": "Toy.Story.3.SWESUB.720p.BluRay.x264.DTS -CFF.mkv",
     "Size": 4.3710755137726665
 }, {
     "Source": "F:Filmer\\Trumbo",
+    "Title": "Trumbo",
     "File": "Trumbo.2015.1080p.BluRay.H264.AAC-RARBG.mp4",
     "Size": 2.377927429974079
 }, {
     "Source": "F:Filmer\\WALL-E",
+    "Title": "WALL-E",
     "File": "WALL-E.2008.1080p.BrRip.x264.YIFY.mp4",
     "Size": 1.2047150591388345
 }, {
     "Source": "F:Filmer\\Warcraft",
+    "Title": "Warcraft",
     "File": "Warcraft.2016.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 1.8757408885285258
 }, {
     "Source": "F:Filmer\\Watchmen",
+    "Title": "Watchmen",
     "File": "Watchmen.2009.Ultimate.Cut.1080p.BluRay.x264-CiNEFiLE.mkv",
     "Size": 13.118882590904832
 }, {
     "Source": "F:Filmer\\What We Do in the Shadows",
+    "Title": "What We Do in the Shadows",
     "File": "What.We.Do.in.the.Shadows.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.2339661130681634
 }, {
     "Source": "F:Filmer\\Whiplash",
+    "Title": "Whiplash",
     "File": "Whiplash.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.6464354079216719
 }, {
     "Source": "F:Filmer\\Wild",
+    "Title": "Wild",
     "File": "Wild.2014.1080p.BluRay.x264.YIFY.mp4",
     "Size": 1.8457431951537728
 }, {
     "Source": "F:Filmer\\Wreck-It Ralph",
+    "Title": "Wreck-It Ralph",
     "File": "Wreck-It.Ralph.2012.SWESUB.720p.WEB-DL.x264-Mr.Stiffy.mkv",
     "Size": 3.199341776780784
 }, {
     "Source": "F:Filmer\\X Men Days of Future Past",
+    "Title": "X Men Days of Future Past",
     "File": "X.Men.Days.of.Future.Past.2014.720p.BluRay.x264.YIFY.mp4",
     "Size": 0.8567236931994557
 }, {
     "Source": "F:Filmer\\Zero Dark Thirty",
+    "Title": "Zero Dark Thirty",
     "File": "Zero.Dark.Thirty.2012.SWESUB.720p.BluRay.x264-HDQ.mkv",
     "Size": 6.556965259835124
 }, {
     "Source": "F:Filmer\\Zodiac",
+    "Title": "Zodiac",
     "File": "Zodiac.2007.DC.1080p.BluRay.x264.anoXmous_.mp4",
     "Size": 2.0201680017635226
 }, {
     "Source": "F:Filmer\\Zootopia",
+    "Title": "Zootopia",
     "File": "Zootopia.2016.1080p.BluRay.x264-[YTS.AG].mp4",
     "Size": 1.652974090538919
 }]

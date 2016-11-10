@@ -90,12 +90,11 @@ class TextUI:
 			print table.table
 
 class MovieCover:
-	width = 200
-	height = 300
+	width = 100
+	height = 150
 	marginy = 20
 	marginx = 40
-	padding = 20
-	hovered = -1
+	padding = 40
 
 class GUI:
 	def __init__(self, lfx):
@@ -188,13 +187,13 @@ class GUI:
 			y1 = y0 + height
 
 			self.file_list.create_rectangle(x0, y0, x0 + width, y0 + height, fill = "#2ecc71")
-			self.file_list.create_text(x0 + ((x1 - x0) / 2), y1 + marginy / 2, text = file.attributes['File'][:20])
+			self.file_list.create_text(x0 + ((x1 - x0) / 2), y1 + marginy / 2, text = file.attributes['Title'])
 
 		bbox = self.file_list.bbox(ALL)
-		self.file_list.config(scrollregion = (0, 0, bbox[2] + marginx + padding, bbox[3]))
+		self.file_list.config(scrollregion = (0, 0, bbox[2] + marginx + padding, bbox[3] + marginy + padding))
 
 	def hover_file_list(self, event):
 		canvas = event.widget
 		x = canvas.canvasx(event.x)
 		y = canvas.canvasy(event.y)
-		#print canvas.find_closest(x, y)
+		print canvas.find_closest(x, y)
